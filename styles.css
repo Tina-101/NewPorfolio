@@ -8,7 +8,7 @@
 /* Set a background color and fonts */
 body {
     background-color: rgba(245, 245, 245, 0.199);
-    font-family: Arial, sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 /* Styling the hero header and navigation */
 .hero-header {
