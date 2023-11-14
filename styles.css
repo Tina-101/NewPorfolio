@@ -66,12 +66,35 @@ nav {
     padding: 50px;
     text-align: center;
 }
-
-.about-content {
-    background-color: #fff;
+.about-items {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     border-radius: 5px;
+    justify-content: center;
 }
+
+.about-content {
+    flex: 1;
+    margin: 20px;
+    text-align: left;
+    flex: 0 0 calc(50% - 40px);
+    max-width: calc(50% - 40px);
+    background-color: #7d12ff38;
+}
+
+.circular-image {
+    flex: 1;
+    text-align: right;
+    display: inline-block;
+}
+.circular-image img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    border: 2px solid #7d12ff;
+}
+
 
 /* Portfolio section */
 #portfolio {
